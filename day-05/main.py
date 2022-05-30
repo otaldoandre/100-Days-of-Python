@@ -16,7 +16,6 @@ password_len = nr_letters + nr_symbols + nr_numbers
 # e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
 random_password = ''
-count = 0
 for i in range(0, password_len + 1):
     if i < nr_letters:
         random_password += random.choice(letters)
