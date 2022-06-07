@@ -31,7 +31,7 @@ def caesar(plain_text, shift_number, direction_caesar):
                 new_letter = alphabet[alphabet_index - shift_number]
         plain_text[i] = new_letter
         i += 1
-    print(f"The {direction_caesar}ed text is {''.join(plain_text)}")
+    print(f"The {direction_caesar}d text is {''.join(plain_text)}")
 
 
 print(logo)
